@@ -3,16 +3,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        double anapara = 1458;
-        double anadolar = 101;
-        double anaeuro = 31;
-        double anasterlin = 69;
-        double anaaltin = 78;
+        double anapara = 1458, anadolar = 101, anaeuro = 31, anasterlin = 69, anaaltin = 78;
 
-        double dolarkuru = 15.24;
-        double eurokuru = 16.10;
-        double altinkuru = 912.20;
-        double sterlinkuru = 18.82;
+        double dolarkuru = 17.93, eurokuru = 18.30, sterlinkuru = 21.65, altinkuru = 1034.92;
 
         System.out.println("===================================================");
         System.out.println("Merhaba. Güler Bank'a Hoşgeldiniz...");
@@ -26,6 +19,7 @@ public class Main {
 
 
             System.out.println("1) Para Yatırma\n2) Para Çekme\n3) Döviz ve Altın İşlemleri\n4) Para Transferi");
+            System.out.print("Seçiminiz: ");
             int islem = scan.nextInt();
             System.out.println("===================================================");
 
